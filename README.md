@@ -1,11 +1,10 @@
 # dictionary_app
 
 
-**About:** The Headlines application by Flask
+**About:** The English dictionary application by Flask
 
 <hr>
 
-**Description:** The Headlines application displays up-to-date news headlines, weather information,
-and currency exchange rates to users
+**Description:**
 
 <hr>
