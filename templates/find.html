@@ -5,7 +5,7 @@
 {% block navbar %}
 <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="/">Dictionary App</a>
+		<a class="navbar-brand" href="/"><b>English Dictionary App</b></a>
 	</div>
 </nav>
 {% endblock %}
@@ -13,15 +13,13 @@
 
 {% block content %} 
 <div class="container">
-<form class="row gy-2 gx-3 align-items-center">
-  <div class="col-auto">
-    <label class="visually-hidden" for="autoSizingInput">Word for find</label>
-    <input type="text" class="form-control" id="autoSizingInput" name="word" placeholder="Enter word">
+
+<p><form>
+		<div class="form-group">
+    <input type="text" class="form-control" id="autoSizingInput" name="word" placeholder="Enter a word">
   </div>
-  <div class="col-auto">
     <button type="submit" class="btn btn-primary">Submit</button>
-  </div>
-</form>
+</form></p>
 
 <hr>
 <h1 align="center"><b>{{ cur_word }}</b></h1>
