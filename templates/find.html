@@ -1,6 +1,5 @@
 {% extends "bootstrap/base.html" %}
 
-
 {% block title %}Dictionary App{% endblock %}
 
 {% block navbar %}
@@ -14,7 +13,7 @@
 
 {% block content %} 
 <div class="container">
-<form class="row gy-2 gx-3 align-items-center" method="post">
+<form class="row gy-2 gx-3 align-items-center">
   <div class="col-auto">
     <label class="visually-hidden" for="autoSizingInput">Word for find</label>
     <input type="text" class="form-control" id="autoSizingInput" name="word" placeholder="Enter word">
@@ -23,6 +22,39 @@
     <button type="submit" class="btn btn-primary">Submit</button>
   </div>
 </form>
+
+<hr>
+<h1 align="center"><b>{{ cur_word }}</b></h1>
+<hr>
+
+{% for item in whatis_word %}
+<p><b><i>{{ item }}</b></i></p>
+<ul>
+	{% for it in whatis_word.get(item) %}
+	<li>{{ it }}</li>
+	{% endfor %}
+</ul>
+{% endfor %}
+
+<hr>
+
+<p><b><i>Synonym</i></b>
+<p><ul>
+	{% for item in synonym_word %}
+	{{ item }},
+	{% endfor %}
+</ul></p>
+
+<hr>
+
+<p><b><i>Antonym</i></b>
+<p><ul>
+	{% for item in antonym_word %}
+	{{ item }},
+	{% endfor %}
+</ul></p>
+
+<hr>
 
 </div>
 
