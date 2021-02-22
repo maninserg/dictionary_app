@@ -17,5 +17,5 @@
 
 <p align="center">
   <img width = "250" src="screenshots/result_find.jpg"/>
-<p align="center">The results of the find<p align="center">
+<p align="center"><b>The results of the find</b><p align="center">
 </p>
