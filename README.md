@@ -11,7 +11,7 @@
 
 <p align="center">
   <img width = "250" src="screenshots/main_page.jpg"/>
-<p align="center">The main page<p align="center">
+<p align="center"><br>The main page</br><p align="center">
 </p>
 
 
