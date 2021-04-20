@@ -1,13 +1,13 @@
 # dictionary_app
 
+The English dictionary application by Flask
 
-**About:** The English dictionary application by Flask
 
-<hr>
+## Description
 
-**Description:** The English dictionary is made with the help of Flask and the packet "PyDictionary"
+The English dictionary is made with the help of Flask and the packet "PyDictionary"
 
-<hr>
+## Screenshots
 
 <p align="center">
   <img width = "250" src="screenshots/main_page.jpg"/>
